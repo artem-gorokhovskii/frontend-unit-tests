@@ -7,7 +7,7 @@ export class Counter extends React.PureComponent {
         this.increasePressedTimesBinded = this.increasePressedTimes.bind(this);
     }
 
-    componentDidUpdate(prevProps) {
+    componentDidUpdate(prevProps) { // Только для теста метода жизненного цикла
         // после изменения props.name установим prevProps.name.length в state.pressedTimes
         if (prevProps.name !== this.props.name) {
             this.setState({ pressedTimes: prevProps.name.length });
