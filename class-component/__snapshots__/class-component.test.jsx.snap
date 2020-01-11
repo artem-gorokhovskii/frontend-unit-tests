@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Class component Counter Должен иметь корректный снапшот 1`] = `
+"<div className=\\"counter\\">
+  <div className=\\"greetings\\">
+    Привет, 
+    Artem Gorokhovskii
+    !
+  </div>
+  <div className=\\"message\\">
+    Вы нажали 
+    0
+     раз
+  </div>
+  <button onClick={[Function: bound increasePressedTimes]} />
+</div>"
+`;
